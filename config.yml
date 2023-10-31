@@ -1,0 +1,6 @@
+#cloud-config
+write_files:
+  - path: /usr/local/openresty/nginx/conf/sites-enabled/test.conf
+    content: "test-bil"
+    owner: root:root
+    permissions: '7777'
